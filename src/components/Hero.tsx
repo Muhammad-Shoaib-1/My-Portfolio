@@ -48,12 +48,21 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="flex gap-4 justify-center mb-12"
         >
-          <a href="#projects" className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
-            View My Work
-          </a>
-          <a href="#contact" className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300">
-            Contact Me
-          </a>
+          <div className="flex flex-wrap gap-4 justify-center mb-12">
+            <a href="#projects" className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
+              View My Work
+            </a>
+            <a href="#contact" className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300">
+              Contact Me
+            </a>
+            
+            <a href="/Muhammad_Shoaib_CV.pdf"
+              download="Muhammad_Shoaib_CV.pdf"
+              className="border border-gray-600 text-gray-400 hover:border-blue-500 hover:text-blue-500 px-8 py-3 rounded-lg font-semibold transition-all duration-300"
+            >
+              Download CV 📄
+            </a>
+          </div>
         </motion.div>
 
         <motion.div

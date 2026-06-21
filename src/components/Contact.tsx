@@ -101,14 +101,6 @@ function Contact() {
               <FaGithub size={30} />
             </a>
           </div>
-
-          <div className="bg-gray-950 border border-gray-800 rounded-xl p-5 flex items-center gap-3 hover:border-blue-500 transition-colors duration-300">
-            <span className="text-2xl">📍</span>
-            <div>
-              <p className="text-gray-500 text-xs">Location</p>
-              <p className="text-white font-medium text-sm">Lahore, Pakistan</p>
-            </div>
-          </div>
         </motion.div>
 
         <motion.form
